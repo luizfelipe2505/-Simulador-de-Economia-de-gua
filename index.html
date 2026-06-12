@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>💧 Simulador de Economia de Água</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>💧 Simulador de Economia de Água</h1>
+    <p>Descubra quanto você pode economizar adotando práticas sustentáveis.</p>
+</header>
+
+<main>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Consumo Mensal de Água</h2>
+
+        <input
+            type="number"
+            id="consumo"
+            placeholder="Digite o consumo em litros"
+        >
+
+    </div>
+
+    <div class="card">
+
+        <h2>Prática Sustentável</h2>
+
+        <select id="pratica">
+
+            <option value="0">
+                Selecione
+            </option>
+
+            <option value="15">
+                Captação da Água da Chuva
+            </option>
+
+            <option value="25">
+                Reutilização da Água
+            </option>
+
+            <option value="35">
+                Irrigação Inteligente
+            </option>
+
+            <option value="45">
+                Combinação de Tecnologias
+            </option>
+
+        </select>
+
+    </div>
+
+    <button id="calcular">
+        Calcular Economia
+    </button>
+
+    <section id="resultado"></section>
+
+</div>
+
+</main>
+
+<footer>
+    Projeto Agrinho 2026
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
